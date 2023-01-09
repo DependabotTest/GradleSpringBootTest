@@ -8,4 +8,7 @@ updates:
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "hourly"
+      interval: "daily"
+      time: "14:20"
+      # Use Japan Standard Time (UTC +09:00)
+      timezone: "Europe/Vienna"
